@@ -1,0 +1,22 @@
+{
+  "name": "learn-cypress-automation",
+  "version": "1.0.0",
+  "description": "trhh",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kiran-rana1/learn-cypress-automation.git"
+  },
+  "author": "kiran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kiran-rana1/learn-cypress-automation/issues"
+  },
+  "homepage": "https://github.com/kiran-rana1/learn-cypress-automation#readme",
+  "devDependencies": {
+    "cypress": "^10.9.0"
+  }
+}
