@@ -1,6 +1,5 @@
 import address from '../../fixtures/address.json'
 
-
 describe('visit contact us page and validate its functionality', () => {
     it('visit contact us page and validate its content', () => {
         cy.visit('https://www.vivabooksindia.com/')
