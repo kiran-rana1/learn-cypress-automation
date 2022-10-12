@@ -1,14 +1,14 @@
 import address from '../../fixtures/address.json'
 
-
 describe('visit contact us page and validate its functionality', () => {
     it('visit contact us page and validate its content', () => {
         cy.visit('https://www.vivabooksindia.com/')
         cy.contains('a', 'Contact Us').click()
         cy.url().should('include', '/contact-us')
 
-        Object.keys(address).forEach(function (key) {
-            cy.contains(address[key]).should('be.visible')
+
+        Object.entries(address).forEach(([key, value]) => {
+            cy.contains(value).should('be.visible')
         });
 
     });
